@@ -29,7 +29,7 @@ favicon:
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "IT草根, 代码馆, http://codepub.cn/, http://www.codepub.cn/"
+keywords: ""
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -57,7 +57,7 @@ footer:
     version: true
   # -------------------------------------------------------------
   # Any custom text can be defined here.
-  custom_text: 'Hosted by <a target="_blank" href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a>&nbsp;&nbsp;&nbsp;<a href="http://tongji.baidu.com/web/welcome/ico?s=2c61418f187553bcc869b755930233ab" target="_blank">百度统计</a>'
+  custom_text: ''
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -93,9 +93,7 @@ menu:
   archives: /archives/ || archive
   categories: /categories || th
   tags: /tags || tags
-  简历: /resume || book
   about: /about || user
-  友链: /links || link
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -126,12 +124,7 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/shijiebei2009 || github
-  Linkedin: https://www.linkedin.com/in/codepub || linkedin-square
-  Stackoverflow: http://stackoverflow.com/users/4204922/eric-wang || stack-overflow
-  ZhiHu: https://www.zhihu.com/people/codepub.cn || thumbs-up
-  DouBan: https://www.douban.com/people/shijiebei2009/ || graduation-cap
-  Weibo: http://weibo.com/u/1779238484 || weibo
+  GitHub: https://github.com/xiaopeng163 || github
   #GitHub: https://github.com/yourname || github
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
@@ -159,7 +152,7 @@ links_layout: block
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: /images/avatar.jpg
+avatar: css/images/avatar.png
 
 # Table Of Contents in the Sidebar
 toc:
@@ -217,7 +210,7 @@ symbols_count_time:
 # ---------------------------------------------------------------
 
 # Automatically scroll page to section which is under <!-- more --> mark.
-scroll_to_more: true
+scroll_to_more: false
 
 # Automatically saving scroll position on each post/page in cookies.
 save_scroll: false
@@ -228,8 +221,8 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: true
-  length: 200
+  enable: false
+  length: 500
 
 # Post meta display settings
 post_meta:
@@ -244,8 +237,8 @@ post_meta:
   #description: ex. subscribe to my blog by scanning my public wechat account
 # Reward
 reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
-wechatpay: http://7xig3q.com1.z0.glb.clouddn.com/weixin-donate.png
-alipay: http://7xig3q.com1.z0.glb.clouddn.com/alipay-donate.png
+wechatpay: https://user-images.githubusercontent.com/5743757/44778026-96f38100-abae-11e8-9991-0525e033989a.jpeg
+alipay: https://user-images.githubusercontent.com/5743757/44778116-bd192100-abae-11e8-97d8-c5192f661169.jpeg
 #bitcoin: /images/bitcoin.png
 
 # Declare license on posts
